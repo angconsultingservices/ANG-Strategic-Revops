@@ -68,9 +68,6 @@ button {
   object fit: contain;
   object-position: center;
   flex-shrink: 0;
-  padding: 2px;
-  border-radius: 0;
-  background: #031a2c;
 }
 
 .brand-mark {

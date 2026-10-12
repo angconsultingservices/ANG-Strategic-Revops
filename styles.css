@@ -69,10 +69,11 @@ button {
 }
 
 .brand-mark {
+  display: block;
   width: 58px;
   height: 58px;
   object-fit: contain;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .brand-copy {

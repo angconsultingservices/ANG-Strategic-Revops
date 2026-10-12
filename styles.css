@@ -62,17 +62,28 @@ button {
 }
 
 .brand,
-.footer-brand {
-  display: flex;
-  align-items: center;
-  gap: 13px;
+.footer-brand img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object fit: contain;
+  object-position: center;
+  flex-shrink: 0;
+  padding: 2px;
+  border-radius: 0;
+  background: #031a2c;
 }
 
 .brand-mark {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
+  object-position: center;
+  flex-shrink: 0;
+  padding: 2px;
+  border-radius: 0;
+  background: #061f35;
 }
 
 .brand-copy {
